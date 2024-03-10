@@ -1,0 +1,57 @@
+.actividades {
+    margin-top: 1rem;
+    background-color: aliceblue;
+    width: 100%;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lista__actividades {
+    overflow-y: auto;
+    white-space: nowrap; 
+}
+
+
+.lista__actividades::-webkit-scrollbar{
+    width: 0;
+}
+
+.titulo__actividades{
+    margin-top: 2rem;
+}
+.articulos {
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto__actividad {
+    width: 100%;
+    max-width: 400px;
+    height: auto; 
+}
+
+.actvidades123 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.descripcion__actividad {
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+

@@ -1,0 +1,78 @@
+.exalumnos {
+    background-color: blueviolet;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.exalumnos_text {
+   margin-left: 3rem;
+    color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exalumnos_text__titulo {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    width: 50%;
+    text-align:justify
+}
+
+.exalumnos_text__text{
+    text-align:justify;
+    width: 51%;
+}
+
+.exalumnos__lista{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.exalumnos__persona {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.exalumnos__lista li:nth-child(even){
+    align-self: flex-end;
+}
+
+
+.foto__exalumno {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.exalumnos__persona{
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.exalumno__experiencia {
+    margin-left: 1rem;
+}
+
+.exalumno__dice {
+    margin-bottom: 1rem;
+    font-style: oblique;
+}
+
+.exalumno__nombre {
+   font-style: bold;
+    font-weight: 700;
+}
